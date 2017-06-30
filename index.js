@@ -2,10 +2,8 @@ import * as logger	from 'js-logger';
 
 import { loggerConstants }	from './logger-constants';
 
-import config from '../config';
-
 logger.useDefaults();
-logger.setLevel( logger[ config.logLevel ] );
+logger.setLevel( loggerConstants.DEBUG );
 
 let sigils = {
 	[ loggerConstants.DEBUG ]: "**",
@@ -46,3 +44,7 @@ logger.setHandler(
 );
 
 export default logger;
+
+export {
+	loggerConstants
+};

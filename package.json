@@ -1,6 +1,6 @@
 {
   "name": "simple-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simple logger wrapping js-logger with per-level sigils",
   "main": "index.js",
   "scripts": {
