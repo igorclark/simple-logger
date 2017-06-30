@@ -3,7 +3,7 @@ import * as logger	from 'js-logger';
 import { loggerConstants }	from './logger-constants';
 
 logger.useDefaults();
-logger.setLevel( loggerConstants.DEBUG );
+logger.setLevel( logger[ loggerConstants.DEBUG ] );
 
 let sigils = {
 	[ loggerConstants.DEBUG ]: "**",
