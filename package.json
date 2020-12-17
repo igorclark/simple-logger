@@ -16,5 +16,8 @@
     "log"
   ],
   "author": "Igor Clark <igor@artrabbit.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "js-logger": "^1.6.1"
+  }
 }
