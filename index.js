@@ -7,10 +7,10 @@ logger.setLevel( logger[ loggerConstants.DEBUG ] );
 
 let sigils = {
 	[ loggerConstants.DEBUG ]: "**",
-	[ loggerConstants.INFO ]:	"->",
-	[ loggerConstants.TIME ]:	"))",
-	[ loggerConstants.WARN ]:	"=>",
-	[ loggerConstants.ERROR ]:	"!!"
+	[ loggerConstants.INFO ]:	" ->",
+	[ loggerConstants.TIME ]:	" ))",
+	[ loggerConstants.WARN ]:	" =>",
+	[ loggerConstants.ERROR ]: "!!"
 };
 
 let defaultHandler = logger.createDefaultHandler( {
